@@ -50,7 +50,6 @@ internal class Calculator : ICalc
         OnGotResult();
     }
 
-    // Метод, вызывающий событие GotResult
     protected virtual void OnGotResult()
     {
         GotResult?.Invoke(this, EventArgs.Empty);
